@@ -2,8 +2,10 @@
 
 A production-grade **Multi-PDF RAG pipeline** built with **LlamaIndex** that remembers your conversation history. Available as both a **Streamlit web app** and a **terminal CLI**.
 
-> **Part 3 of the DeepRAG series.**
-> [Part 1 — Built from scratch](https://github.com/nadeem123-ai/DeepRAG) | [Part 2 — LangChain]((https://github.com/nadeem123-ai/MemoryRAG)) | Part 3 — LlamaIndex ← you are here
+> **Part 3 of the DeepRAG series.**  
+> [Part 1 — Built from scratch](https://github.com/nadeem123-ai/DeepRAG) |
+> [Part 2 — LangChain](https://github.com/nadeem123-ai/MemoryRAG) |
+> **Part 3 — LlamaIndex** ← you are here
 
 ---
 
