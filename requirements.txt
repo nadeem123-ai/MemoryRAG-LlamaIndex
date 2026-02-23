@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# Requirements — LlamaIndex RAG Pipeline with Chroma
+# Tested with Python 3.10
+# Install: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────────────────
+
+# LlamaIndex core
+llama-index-core>=0.10.0
+
+# PDF loading
+llama-index-readers-file>=0.1.0
+
+# Embeddings
+llama-index-embeddings-huggingface>=0.2.0
+sentence-transformers>=3.0.0
+
+# Vector store
+llama-index-vector-stores-chroma>=0.1.0
+chromadb>=0.5.0
+
+# LLM backends
+llama-index-llms-ollama>=0.1.0
+llama-index-llms-openai>=0.1.0
+ollama>=0.3.0
+openai>=1.30.0
+
+# Utilities
+numpy>=1.26.0,<2.0.0
+torch>=2.3.0
+python-dotenv>=1.0.0
+streamlit>=1.35.0

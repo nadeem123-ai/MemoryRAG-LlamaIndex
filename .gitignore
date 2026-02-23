@@ -1,0 +1,30 @@
+# Windows PowerShell
+New-Item .gitignore -ItemType File
+notepad .gitignore
+```
+
+Paste this inside and save:
+```
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Chroma vector database (auto-generated)
+chroma_db/
+
+# Environment variables (API keys)
+.env
+
+# PDF files (too large)
+docs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
